@@ -1,0 +1,21 @@
+body{
+    background-color:burlywood
+}
+h1{
+    color:brown
+}
+#p1{
+    color:darkred
+}
+#p2{
+    color:darkblue
+}
+#p3{
+    color:darkgreen
+}
+.even{
+    font-style: italic;
+}
+.odd{
+     font-weight: bold;
+}
