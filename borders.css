@@ -1,0 +1,13 @@
+h1{
+    border: 3px solid brown;
+    border-radius: 10px;
+    font-style: bold;
+}
+p{
+    border-bottom: 3px solid rgb(112, 0, 0);
+    border-top: 3px dashed darkblue;
+    border-left: 5px double green;
+    border-right: 10px dotted yellow;
+    font-style:oblique;
+    color: brown;
+}
