@@ -1,0 +1,24 @@
+#container{
+    border: 2px solid;
+}
+
+/* descendant */
+
+#container p{
+    background-color: brown;
+}
+
+/* Child */
+#container > p{
+    color: yellow;
+}
+
+/* General Siblings */
+#container ~ p{
+    color:blue
+}
+
+/* Adjacent siblings */
+#container + p{
+    color:red;
+}
