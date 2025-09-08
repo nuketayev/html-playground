@@ -1,0 +1,14 @@
+.icons{
+    text-align: center;
+}
+.icons a{
+    text-decoration:none;
+    
+}
+
+.icons a{
+    color:red;
+}
+.icons a:visited{
+    color:red;
+}
