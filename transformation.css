@@ -1,0 +1,14 @@
+body{
+    margin:0;
+}
+#box1{
+    height:250px;
+    width:250px;
+    border: 5px solid rgb(103, 103, 103);
+    text-align:center;
+    font-size:13em;
+    color:white;
+    background-color:brown;
+    
+    transform:translate(100px, 100px) rotateZ(90deg) scale(75%,50%);
+}
