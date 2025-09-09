@@ -1,0 +1,41 @@
+.box{
+    height:250px;
+    width:250px;
+    border: 5px solid mediumturquoise;
+    font-size:13em;
+    text-align:center;
+    color:mediumturquoise
+}
+#box1{
+    background-color:brown;
+    margin:15%;
+    animation-name: colorChange;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+    animation-direction:alternate;
+    animation-timing-function:cubic-bezier(0.71, -0.01, 0.3, 0.96);
+}
+
+@keyframes slideLeft{
+    from{transform:translateX(450%)}
+}
+@keyframes slideright{
+    to{transform:translatex(300%)}
+}
+@keyframes rotate{
+    50%{transform:rotateX(360deg)}
+}
+@keyframes grow{
+    95%{transform:scale(2,2)}
+}
+@keyframes fade{
+    90%{opacity:0}
+}
+@keyframes colorChange{
+    5%{background-color:lightblue}
+    20%{background-color:lightpink}
+    40%{background-color:gold}
+    60%{background-color: lightgreen;}
+    80%{background-color: red;}
+    95%{background-color: fuchsia;}
+}
